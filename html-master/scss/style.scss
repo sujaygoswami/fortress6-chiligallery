@@ -1,0 +1,27 @@
+/*! Init */
+
+@import 'scss/bootstrap/bootstrap';
+
+
+/*! Vendor */
+
+.photoGallery{
+    .fancybox__content{
+        &:after{
+            content: ' ';
+            display: block;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            z-index: 1;
+            pointer-events: none;
+            background-image: url(../Images/camera-2008479_640.png);
+            width: 80px;
+            height: 80px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left top;
+            opacity: 0.5;
+        }
+    }
+}
