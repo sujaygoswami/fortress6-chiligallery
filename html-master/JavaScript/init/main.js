@@ -11,5 +11,15 @@ jQuery(document).ready(function(){
           },
       });
 
+
+    jQuery('.my-datepicker').each(function(){
+        jQuery(this).datepicker({
+            dateFormat: 'dd.mm.yy',
+            monthNames: ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+            dayNames: ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag','Samstag'],
+            dayNamesMin: ['So', 'Mo', 'Die', 'Mi', 'Do', 'Fre', 'Sa']
+        });
+    });
+
 });
 
