@@ -7821,3 +7821,13 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: left top;
   opacity: 0.5; }
+
+.photoGallery .fancybox__toolbar {
+  margin: 0 auto;
+  opacity: 1 !important;
+  pointer-events: auto !important; }
+
+.photoGallery .fancy-image-download-button {
+  background: #952020; }
+  .photoGallery .fancy-image-download-button:hover {
+    background: #791a1a !important; }
