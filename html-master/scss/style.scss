@@ -6,7 +6,21 @@
 /*! Vendor */
 
 .photoGallery{
+
+    &.fancybox__container .fancybox__caption {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        display: inline;
+        background-color: rgba($color: #ffffff, $alpha: 0.5);
+        padding: 10px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        color: black;
+        max-width: 70%;
+    }
     .fancybox__content{
+        margin-bottom: 20px;
         &:after{
             content: ' ';
             display: block;
