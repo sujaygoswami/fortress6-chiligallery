@@ -38,6 +38,10 @@
                     <div class="row">
                         <div class="col-12">
                             <h2>Frontend Listen - Ansicht</h2>
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -61,8 +65,9 @@
                             <!-- col -->
                             <div class="col-6">
                                 <div class="card">
-                                    <img src="Images/red-panda-8372704_1280.jpg" class="card-img-top img-fluid" alt="...">
-                                  </div>
+                                    <img src="Images/red-panda-8372704_1280.jpg" class="card-img-top img-fluid"
+                                        alt="...">
+                                </div>
                             </div>
                             <!-- col -->
                         </div>
@@ -73,7 +78,8 @@
                         <h2>Filter:</h2>
                         <div class="btn-group row" role="group" aria-label="Basic example">
                             <div class="col-auto">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Suchbegriff (Title, Kurztext, Kategorie, Ort)">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Suchbegriff (Title, Kurztext, Kategorie, Ort)">
                             </div>
                             <div class="col-auto">
                                 <select class="form-select" aria-label="Default select example">
@@ -81,7 +87,7 @@
                                     <option value="1">Land</option>
                                     <option value="2">Land</option>
                                     <option value="3">Land</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="col-auto">
                                 <select class="form-select" aria-label="Default select example">
@@ -89,7 +95,7 @@
                                     <option value="1">Jahr</option>
                                     <option value="2">Jahr</option>
                                     <option value="3">Jahr</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="col-auto">
                                 <select class="form-select" aria-label="Default select example">
@@ -97,7 +103,7 @@
                                     <option value="1">Monat</option>
                                     <option value="2">Monat</option>
                                     <option value="3">Monat</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="col-auto">
                                 <select class="form-select" aria-label="Default select example">
@@ -105,10 +111,10 @@
                                     <option value="1">Fotagraf</option>
                                     <option value="2">Fotagraf</option>
                                     <option value="3">Fotagraf</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="col-auto"><button type="submit" class="btn btn-dark">Submit</button></div>
-                          </div>
+                        </div>
                     </div>
                     <!-- listing filter nav -->
                     <!-- listing filter select -->
@@ -131,11 +137,28 @@
                             <!-- col -->
                             <div class="col-4 mb-4">
                                 <div class="card">
-                                    <a data-download-src="https://lipsum.app/id/15/3200x2400" href="https://events.baldneu.at/fileadmin/_processed_/9/6/csm_Hippmann2024_0685_4e9bd2796e.jpg" data-fancybox="gallery"
-                                        data-caption="Fotograph"><img src="Images/red-panda-8372704_1280.jpg"
-                                            class="card-img-top" alt="..."></a>
-                                    <div class="card-body">
+                                    <a data-download-src="https://lipsum.app/id/15/3200x2400"
+                                        href="https://events.baldneu.at/fileadmin/_processed_/9/6/csm_Hippmann2024_0685_4e9bd2796e.jpg"
+                                        data-fancybox="gallery" data-caption="Fotograph"><img
+                                            src="Images/red-panda-8372704_1280.jpg" class="card-img-top" alt="..."></a>
+                                    <div class="card-body has-item-share">
                                         <p class="card-text">Dateiname: Foto_01.jpg</p>
+                                        <!-- gallery item share -->
+                                        <div class="btn-group dropup gallery-item-share">
+                                            <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                teilen
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <div>
+                                                    <div><a href="#"><i><img src="Images/facebook-svg-icon-original.svg"
+                                                                width="38"></i><span>Facebook<br> teilen</span></a></div>
+                                                    <div><a href="#"><i><img src="Images/link-svg-icon.svg"
+                                                                width="34"></i><span>Link<br> kopieren</span></a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- gallery item share -->
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +231,8 @@
                         <div class="row justify-content-end">
                             <div class="col"><button type="button" class="btn btn-dark">vorherige Seite</button></div>
                             <div class="col-auto">
-                                <div class="mb-2"><button type="button" class="btn btn-dark">nachste Seite</button></div>
+                                <div class="mb-2"><button type="button" class="btn btn-dark">nachste Seite</button>
+                                </div>
                                 <div><button type="button" class="btn btn-dark">zuruck zur Uberschit</button></div>
                             </div>
                         </div>
@@ -227,6 +251,7 @@
 
 
     <!-- build:vendorjs -->
+    <script src="JavaScript/lib/popper.min.js"></script>
     <script src="JavaScript/lib/bootstrap.js"></script>
     <script src="JavaScript/lib/fancybox.umd.js"></script>
     <!-- endbuild -->
